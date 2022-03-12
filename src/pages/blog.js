@@ -1,13 +1,22 @@
 import React from 'react';
 import Layout from '../components/Layout';
+import Header from "../components/Header/Header"
+import Footer from "../components/Footer/Footer.jsx"
 
 export default function Blog() {
-  return (<Layout>
+  return (
       <div>
 
 
-<h1>Blog</h1>
-    <p>This Blog page</p>
-  </div>;
-  </Layout>);
+      <Header />
+
+      <Footer />
+
+
+
+
+  </div>
+
+
+  );
 }
