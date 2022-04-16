@@ -58,13 +58,17 @@ export  default function Footer() {
 
                     <div className="footer-sec contact-icon">
                         <h4>Contact Us</h4>
-                        <div className="footer-icon-part">
+                       
+                       
+                        {/* <div className="footer-icon-part">
                             <FaPhone />
-                            <a href="tel: +00000000">00000000</a>
+                           <a href="tel: +00000000">00000000</a>
                         </div>
+
+                        */ }
                         <div className="footer-icon-part">
                             <FaEnvelope />
-                            <a href="mailto: info@ideadac.com">info@ideadac.com</a>
+                            <a href="mailto: Ideadac@outlook.com">Ideadac@outlook.com</a>
                         </div>
                         <div className="footer-icon-part">
                             <FaMapMarkerAlt />
