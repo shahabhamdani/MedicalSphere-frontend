@@ -24,10 +24,6 @@ export default function Hero() {
   return (
     <div className='hero-section' >
 
-<div className='header-section'>
-
-
-
       <div className="container">
         <Slider {...settings} className="hero-slider">
           <div className="slider-item">
@@ -73,7 +69,7 @@ export default function Hero() {
       </div>
 
 
-      </div>
+      
 
 
   );

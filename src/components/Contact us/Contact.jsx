@@ -1,9 +1,46 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import '../Contact us/Contact.css';
 import { FaCheckCircle } from "react-icons/fa";
 import { FaExclamationCircle } from "react-icons/fa";
+import emailjs from '@emailjs/browser';
+import Swal from "sweetalert2";
+
+
 
 export default function Contact() {
+
+
+    const form = useRef();
+
+
+
+    const SERVICE_ID = "service_20x1skh";
+const TEMPLATE_ID = "template_8tg4dot";
+const USER_ID = "m8pmJWQ6woIM5ToOA";
+
+
+    
+        const handleOnSubmit = (e) => {
+          e.preventDefault();
+          emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, form.current, USER_ID)
+            .then((result) => {
+              console.log(result.text);
+              Swal.fire({
+                icon:"‘success",
+                title: "Message Sent Successfully"
+              })
+            }, (error) => {
+              console.log(error.text);
+              Swal.fire({
+                icon: "error",
+                title: "Ooops, something went wrong",
+                text: error.text,
+              })
+            });
+          e.target.reset()
+        };
+
+
     return (
         <section className='contact' id='contact-us'>
             <div className='container contact-us'>
@@ -11,34 +48,34 @@ export default function Contact() {
                 <p className="paragraph">When unknow printer took a gallery of type and scramblted it to make a type specimen book.</p>
                 <div className="contact-body">
                     <div className="contact-sec">
-                        <form action="">
+                        <form ref={form} onSubmit={handleOnSubmit}>
                             <div className="form-control">
-                                <input type='text' id='name' className='contact-input' onChange={nameChange} placeholder='Name'/>
+                                <input type='text' id='name'   name='name'className='contact-input' onChange={nameChange} placeholder='Name'/>
                                 <FaCheckCircle />
                                 <FaExclamationCircle />
                             </div>
                             <div className="form-control">
-                                <input type='email' id='email' className='contact-input' onChange={emailChange} placeholder='Email'/>
+                                <input type='email' id='email'  name='email' className='contact-input' onChange={emailChange} placeholder='Email'/>
                                 <FaCheckCircle />
                                 <FaExclamationCircle />
                             </div>
                             <div className="form-control">
-                                <input type='number' id='phone' className='contact-input' onChange={phoneChange} placeholder='Phone'/>
+                                <input type='number' id='phone'  name='phone' className='contact-input' onChange={phoneChange} placeholder='Phone'/>
                                 <FaCheckCircle />
                                 <FaExclamationCircle />
                             </div>
                             <div className="form-control">
-                                <select className='contact-input' title='Select Option' required>
+                                <select  name='service' className='contact-input' title='Select Option' required>
                                     <option value="">Choose Service</option>
-                                    <option value="1">Web Design</option>
-                                    <option value="2">Graphics Design</option>
-                                    <option value="3">App Development</option>
-                                    <option value="4">Web Development</option>
-                                    <option value="5">SEO and Marketing</option>
+                                    <option value="Web Design">Web Design</option>
+                                    <option value="Graphic Design">Graphics Design</option>
+                                    <option value="App Development">App Development</option>
+                                    <option value="Web Development">Web Development</option>
+                                    <option value="Seo">SEO and Marketing</option>
                                 </select>
                             </div>
                             <div className="form-control">
-                                <textarea id='message' className='contact-message' onChange={messageChange} placeholder='Message'></textarea>
+                                <textarea id='message' name='message' className='contact-message' onChange={messageChange} placeholder='Message'></textarea>
                                 <FaCheckCircle />
                                 <FaExclamationCircle />
                             </div>

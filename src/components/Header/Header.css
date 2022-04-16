@@ -1,16 +1,35 @@
 .hero-section {
   background-image: url("../Images/header_bg.png");
   background-repeat: no-repeat;
-  padding: 0px 0px 60px;
-
+  padding: 40px 0px 40px;
   background-position: left center;
 }
 
 .header-section{
-
+  position: sticky;
   padding: 30px 0px 0px;
+  width: 100%;
+  position: fixed;
+  background: white;
+  z-index: 5;
+}
+
+
+.nav{
+  height:50px;
+  width: 100%;
+  position: sticky;
+  padding: 30px 0px 0px;
+  top:0;
+  transition:0.2s;
+  z-index: 5;
+  background: white;
+
 
 }
+
+
+
 
 .header-menu {
   display: -webkit-box;

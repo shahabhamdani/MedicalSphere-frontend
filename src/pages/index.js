@@ -15,7 +15,13 @@ import Projects from "../components/Projects/Projects";
 export default function Home() {
   return (
     <div>
-      <Header />
+      
+
+<Header/>
+
+
+
+
       <Hero />
       <Services />
       <HireUs />

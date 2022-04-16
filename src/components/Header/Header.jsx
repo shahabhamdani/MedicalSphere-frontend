@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react'
 import '../Header/Header.css';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -11,18 +11,37 @@ import banner2 from '../Images/banner_02.png';
 import banner3 from '../Images/banner_03.png';
 import { LinkButton } from '../Sub Components/btn_components';
 
-export default function Header() {
-  var settings = {
-    dots: true,
-    arrows: false,
-    autoplay: true,
-    autoplaySpeed: 2500,
-    slidesToShow: 1,
-    slidesToScroll: 1
+
+
+export default class Header extends React.Component   {
+
+  constructor() {
+    super();
+    this.state = {
+      show: true,
+      scrollPos: 0
+    };
+  }
+  componentDidMount() {
+    window.addEventListener("scroll", this.handleScroll);
+  }
+  componentWillUnmount() {
+    window.removeEventListener("scroll", this.handleScroll);
+  }
+  handleScroll = () => {
+    // console.log(document.body.getBoundingClientRect());
+    this.setState({
+      scrollPos: document.body.getBoundingClientRect().top,
+      show: document.body.getBoundingClientRect().top > this.state.scrollPos
+    });
   };
 
-  return (
-    <header className="header-section">
+  render() {
+
+
+    return (
+
+    <header  className={` ${this.state.show  && 'nav'}`}  >
       <div className="container">
         <div className="header-menu">
           <img src={Logo} alt="" />
@@ -41,12 +60,14 @@ export default function Header() {
           
           <button className="menu-bar" onClick={menuFunction}> <FaAlignLeft/> </button>
         </div>
-       
-
       </div>
-    </header>         
+    </header>    
+    
+    );
 
-  );
+
+  }
+
 }
 
 
