@@ -15,20 +15,13 @@ import Projects from "../components/Projects/Projects";
 export default function Home() {
   return (
     <div>
-      
 
 <Header/>
-
-
-
-
       <Hero />
       <Services />
       <HireUs />
       <Completedwork />
-      <Projects />
       <Pricing />
-      <Blog />
       <Contact />
       <Footer />
     </div>
