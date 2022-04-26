@@ -25,7 +25,7 @@ export const PricingData = [
     {
         image : <img src={service3} alt="" />,
         type : "Web Development",
-        price : "$100",
+        price : "$90",
         timePeriod : "7 days",
         packageDesc : [
             "Complete Business Website",
@@ -36,7 +36,7 @@ export const PricingData = [
             "Social media",
 
         ],
-        link : "#"
+        link : "webdev"
     },
     {
         image : <img src={service4} alt="" />,

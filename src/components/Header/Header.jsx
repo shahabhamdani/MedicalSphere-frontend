@@ -55,7 +55,7 @@ export default class Header extends React.Component   {
               <li><a href="#blog" className="nav-link">Blog</a></li>
                 <li><a href="#contact-us" className="nav-link">Contact us</a></li>
             </ul>
-            <LinkButton button_title="Hire Us" link="#"/>
+            <LinkButton button_title="Hire Us" link="#pricing"/>
           </nav>
           
           <button className="menu-bar" onClick={menuFunction}> <FaAlignLeft/> </button>

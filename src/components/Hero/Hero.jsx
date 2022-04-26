@@ -31,7 +31,7 @@ export default function Hero() {
               <h1 className="slider-title">  <span>iDeadac</span> <br/>  Idea Design And Code </h1>
               <h5>Turn your idea into groundbreaking product</h5>
               <p>We build websites and mobile applications that drive sales! If you are interested in growing your business, you have come to the right place. Let’s get you the custom built and action-oriented website your business needs.</p>
-              <LinkButton button_title="Hire Me" link="#"/>
+              <LinkButton button_title="Hire Ue" link="#pricing"/>
             </div>
             <img src={banner1} className="slider-img" alt="" />
           </div>

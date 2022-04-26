@@ -82,8 +82,12 @@ const USER_ID = "m8pmJWQ6woIM5ToOA";
                             <input type="submit" className='contact-submit' value="Submit Now" />
                         </form>
                     </div>
+
                     <div className="map">
-                        <iframe src="https://fliplink.io/IJ4Et" title='Map' frameBorder="0"  allowFullScreen="" loading="lazy"></iframe>
+
+
+                  <iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Ideadac+(IDEADAC%20Pvt.%20ltd)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/marine-gps/">shipping gps</a></iframe>
+
                     </div>
                 </div>
             </div>
