@@ -1,6 +1,5 @@
 import React from 'react';
 import '../Hire Us/Hire-us.css';
-import Hireusimg from '../Images/Hire-us-img.png';
 import { LinkButton } from '../Sub Components/btn_components';
 
 export default function Hire_us() {

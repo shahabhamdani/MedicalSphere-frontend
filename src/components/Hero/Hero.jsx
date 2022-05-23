@@ -6,9 +6,7 @@ import Slider from "react-slick";
 import { FaAlignLeft } from "react-icons/fa";
 import { FaTimes } from "react-icons/fa";
 import Logo from '../Images/logo.png';
-import banner1 from '../Images/banner_1.png';
-import banner2 from '../Images/banner_02.png';
-import banner3 from '../Images/banner_03.png';
+
 import { LinkButton } from '../Sub Components/btn_components';
 
 export default function Hero() {
