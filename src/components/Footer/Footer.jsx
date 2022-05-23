@@ -17,8 +17,7 @@ export  default function Footer() {
                 <div className="container footer-body">
                     <div className="footer-sec">
                         <img src={Logo} alt="" />
-                        <p>Quisque orci nisl, viverra et sem ac, tincidunt egestas massa. Morbi est arcu, hendrerit ac vehicula condimentum, 
-                            euismod nec tortor praesent consequat urna.
+                        <p>We believe that each project is a vital milestone in our journey.<br></br> So, we proactively consult, design, develop & scale robust web, mobile & custom software solutions, that promotes innovation and the best outcome!
                         </p>
 
 
@@ -92,7 +91,7 @@ export function FooterCta() {
             <div className="footer-cta-body">
                 <div className="cta-text">
                     <h3>Have Any Project in Mind ?</h3>
-                    <p>Curabitur libero eros, efficitur sit amet sodales tincidunt, aliquet et leo sed ut nibh feugiat, auctor enim quis.</p>
+                    <p>We deliver value to hundreds of leading businesses, which have derived strategic benefits from our transformative solutions. Let’s speak about your project..</p>
                 </div>
                 <div className="white-link-btn">
                     <LinkButton button_title='hire us' link='#pricing' />

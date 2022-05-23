@@ -28,7 +28,7 @@ export default function Hero() {
             <div className="slider-text">
               <h1 className="slider-title">  <br/>  We Help You  <br></br> Turn Your <span> <i>Idea</i></span><br></br> Into <span><i>Design</i></span> And <span><i>Code</i></span></h1>
               <p>We build websites and mobile applications that drive sales! If you are interested in growing your business,<br></br> you have come to the right place. Let’s get you the custom built and action-oriented website your business needs.</p>
-              <LinkButton button_title="Hire Ue" link="#pricing"/>
+              <LinkButton button_title="Hire US" link="#pricing"/>
             </div>
 
 
