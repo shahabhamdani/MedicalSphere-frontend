@@ -95,7 +95,7 @@ export function FooterCta() {
                     <p>Curabitur libero eros, efficitur sit amet sodales tincidunt, aliquet et leo sed ut nibh feugiat, auctor enim quis.</p>
                 </div>
                 <div className="white-link-btn">
-                    <LinkButton button_title='hire us' link='#' />
+                    <LinkButton button_title='hire us' link='#pricing' />
                 </div>
             </div>
         </div>

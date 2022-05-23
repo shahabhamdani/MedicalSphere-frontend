@@ -16,7 +16,7 @@ export default function Hero() {
     dots: true,
     arrows: false,
     autoplay: true,
-    autoplaySpeed: 2500,
+    autoplaySpeed: 3500,
     slidesToShow: 1,
     slidesToScroll: 1
   };
@@ -28,39 +28,15 @@ export default function Hero() {
         <Slider {...settings} className="hero-slider">
           <div className="slider-item">
             <div className="slider-text">
-              <h1 className="slider-title">  <span>iDeadac</span> <br/>  Idea Design And Code </h1>
-              <h5>Turn your idea into groundbreaking product</h5>
-              <p>We build websites and mobile applications that drive sales! If you are interested in growing your business, you have come to the right place. Let’s get you the custom built and action-oriented website your business needs.</p>
+              <h1 className="slider-title">  <br/>  We Help You  <br></br> Turn Your <span> <i>Idea</i></span><br></br> Into <span><i>Design</i></span> And <span><i>Code</i></span></h1>
+              <p>We build websites and mobile applications that drive sales! If you are interested in growing your business,<br></br> you have come to the right place. Let’s get you the custom built and action-oriented website your business needs.</p>
               <LinkButton button_title="Hire Ue" link="#pricing"/>
             </div>
-            <img src={banner1} className="slider-img" alt="" />
+
+
+
+            
           </div>
-          
-
-
-{/**  
-
- <div className="slider-item">
-            <div className="slider-text">
-              <h1 className="slider-title">We Are Creative <br/> <span>Deneb Agency</span></h1>
-              <h5>We Are Professional Freelance Web Designer</h5>
-              <p>Nulla id euismod massa. Donec accumsan semper lacus, vestibulum gravida ante sed eu lacus et diam lacinia.</p>
-              <LinkButton button_title="Hire Me" link="#"/>
-            </div>
-            <img src={banner2} className="slider-img" alt="" />
-          </div>
-
-          <div className="slider-item">
-            <div className="slider-text">
-              <h1 className="slider-title">We Are Creative <br/> <span>Deneb Agency</span></h1>
-              <h5>We Are Professional Freelance Web Designer</h5>
-              <p>Nulla id euismod massa. Donec accumsan semper lacus, vestibulum gravida ante sed eu lacus et diam lacinia.</p>
-              <LinkButton button_title="Hire Me" link="#"/>
-            </div>
-            <img src={banner3} className="slider-img" alt="" />
-          </div>
- */}
-
          
         </Slider>
 

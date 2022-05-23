@@ -1,8 +1,17 @@
 .hero-section {
-  background-image: url("../Images/header_bg.png");
+  background-image: url("../Images/banner_4.jpg");
+
+  background-size: cover;
   background-repeat: no-repeat;
-  padding: 40px 0px 40px;
-  background-position: left center;
+  padding: 90px 0px 100px;
+  background-position: center;
+  height: fit-content;
+  
+  
+}
+
+.logo {
+  height: 23px;
 }
 
 .header-section{
@@ -19,17 +28,11 @@
   height:50px;
   width: 100%;
   position: sticky;
-  padding: 30px 0px 0px;
+  padding: 5px 0px 0px;
+  box-shadow: 0px 0.02px 10px #00000045;
   top:0;
-  transition:0.2s;
   z-index: 5;
-  background: white;
-
-
-}
-
-
-
+  background: rgb(255, 255, 255);}
 
 .header-menu {
   display: -webkit-box;
@@ -118,7 +121,7 @@
 .slider-item .slider-text .slider-title {
   font-size: 50px;
   font-weight: 500;
-  color: #011a3e;
+  color: #ffffff;
   margin-top: 0;
 }
 
@@ -129,13 +132,13 @@
 
 .slider-item .slider-text h5 {
   font-size: 20px;
-  color: #011a3e;
+  color: #ffffff;
   font-weight: 500;
   margin: 15px 0px;
 }
 
 .slider-item .slider-text p {
-  color: #7a808d;
+  color: #ffffff;
   margin-bottom: 50px;
 }
 
@@ -200,9 +203,13 @@
   .container {
     max-width: 100%;
   }
-  .header-section {
-    padding: 30px 20px 0px;
+
+
+  .hero-section {
+    padding: 5px 20px 0px;
   }
+
+
   .slider-item {
     -ms-grid-columns: auto;
         grid-template-columns: auto;
@@ -214,7 +221,7 @@
             order: 1;
   }
   .slider-item .slider-text .slider-title {
-    font-size: 32px;
+    font-size: 25px;
   }
   .slider-item .slider-img {
     max-width: 100%;

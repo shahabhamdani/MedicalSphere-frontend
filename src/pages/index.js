@@ -20,7 +20,7 @@ export default function Home() {
       <Hero />
       <Services />
       <HireUs />
-      <Completedwork />
+      <Completedwork/>
       <Pricing />
       <Contact />
       <Footer />

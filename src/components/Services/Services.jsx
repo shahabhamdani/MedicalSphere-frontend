@@ -11,7 +11,7 @@ export default function Services() {
     return (
         <section className="container services-section" id="services">
             <h2 className="section-title center">Our Service</h2>
-            <p className="paragraph center">Our team of experts delivers everything from ideation to design and engineering. We can turn any idea sketched on the back of a napkin into a final, shipped mobile or web application.</p>
+            <p className="paragraph center">Our team of experts delivers everything from ideation to design and engineering. <br></br>We can turn any idea sketched on the back of a napkin into a final, shipped mobile or web application.</p>
 
             <div className="services-block">
 

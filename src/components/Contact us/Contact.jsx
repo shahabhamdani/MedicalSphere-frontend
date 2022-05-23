@@ -45,7 +45,7 @@ const USER_ID = "m8pmJWQ6woIM5ToOA";
         <section className='contact' id='contact-us'>
             <div className='container contact-us'>
                 <h2 className="section-title">Send us a message</h2>
-                <p className="paragraph">When unknow printer took a gallery of type and scramblted it to make a type specimen book.</p>
+                <p className="paragraph"></p>
                 <div className="contact-body">
                     <div className="contact-sec">
                         <form ref={form} onSubmit={handleOnSubmit}>
@@ -86,7 +86,7 @@ const USER_ID = "m8pmJWQ6woIM5ToOA";
                     <div className="map">
 
 
-                  <iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Ideadac+(IDEADAC%20Pvt.%20ltd)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/marine-gps/">shipping gps</a></iframe>
+                  <iframe width="100%" height="600" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Ideadac+(IDEADAC%20Pvt.%20ltd)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/marine-gps/">shipping gps</a></iframe>
 
                     </div>
                 </div>

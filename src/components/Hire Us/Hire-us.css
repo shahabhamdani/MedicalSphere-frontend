@@ -1,8 +1,14 @@
 .Hire-us-section {
-  background-image: url("../Images/download9.png");
+  background-image: url("../Images/banner_5.jpg");
+  background-size: cover;
+
   background-repeat: no-repeat;
-  background-position: left center;
-  padding: 60px 0px;
+  padding: 180px 0px;
+
+
+  background-attachment: fixed;
+  background-position: center;
+
 }
 
 .Hire-us-body {
