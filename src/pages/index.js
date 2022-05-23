@@ -10,10 +10,21 @@ import Completedwork from '../components/Completed Work/Completed_work';
 import Blog from "../components/Blog/Blog";
 import Contact from "../components/Contact us/Contact";
 import Pricing from '../components/Pricing/Pricing';
+import Helmet from "react-helmet"
+
 import Projects from "../components/Projects/Projects";
 
 export default function Home() {
   return (
+
+
+    <div id="wrapper">
+    <Helmet>
+        <title>iDeadac</title>
+    </Helmet>
+    
+    <main>
+        
     <div>
 
 <Header/>
@@ -25,5 +36,7 @@ export default function Home() {
       <Contact />
       <Footer />
     </div>
+    </main>
+</div>
   )
 }
