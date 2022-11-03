@@ -28,7 +28,6 @@ export default function Home() {
     <div>
 
 <Header/>
-    <h1>This site is owned and operated by Syed Shahabal Shah Hamdani</h1>
       <Hero />
       <Services />
       <HireUs />
