@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/medicalsphere-frontend/static/css/main.46e16260.css",
+    "main.js": "/medicalsphere-frontend/static/js/main.a9845f98.js",
+    "static/js/703.674d2745.chunk.js": "/medicalsphere-frontend/static/js/703.674d2745.chunk.js",
+    "static/js/513.9d562879.chunk.js": "/medicalsphere-frontend/static/js/513.9d562879.chunk.js",
+    "static/media/bg.png": "/medicalsphere-frontend/static/media/bg.dc2195a76bad5a3b229b.png",
+    "static/media/docavtar.webp": "/medicalsphere-frontend/static/media/docavtar.8c270ebc3491aaed57b4.webp",
+    "index.html": "/medicalsphere-frontend/index.html",
+    "main.46e16260.css.map": "/medicalsphere-frontend/static/css/main.46e16260.css.map",
+    "main.a9845f98.js.map": "/medicalsphere-frontend/static/js/main.a9845f98.js.map",
+    "703.674d2745.chunk.js.map": "/medicalsphere-frontend/static/js/703.674d2745.chunk.js.map",
+    "513.9d562879.chunk.js.map": "/medicalsphere-frontend/static/js/513.9d562879.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.46e16260.css",
+    "static/js/main.a9845f98.js"
+  ]
+}
