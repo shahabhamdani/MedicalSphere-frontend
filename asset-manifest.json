@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/MedicalSphere-frontend/static/css/main.56aabaed.css",
-    "main.js": "/MedicalSphere-frontend/static/js/main.4299032c.js",
-    "static/js/703.674d2745.chunk.js": "/MedicalSphere-frontend/static/js/703.674d2745.chunk.js",
-    "static/js/513.9d562879.chunk.js": "/MedicalSphere-frontend/static/js/513.9d562879.chunk.js",
-    "static/media/bg.png": "/MedicalSphere-frontend/static/media/bg.dc2195a76bad5a3b229b.png",
-    "static/media/docavtar.webp": "/MedicalSphere-frontend/static/media/docavtar.8c270ebc3491aaed57b4.webp",
-    "index.html": "/MedicalSphere-frontend/index.html",
-    "main.56aabaed.css.map": "/MedicalSphere-frontend/static/css/main.56aabaed.css.map",
-    "main.4299032c.js.map": "/MedicalSphere-frontend/static/js/main.4299032c.js.map",
-    "703.674d2745.chunk.js.map": "/MedicalSphere-frontend/static/js/703.674d2745.chunk.js.map",
-    "513.9d562879.chunk.js.map": "/MedicalSphere-frontend/static/js/513.9d562879.chunk.js.map"
+    "main.css": "/static/css/main.f842d5e8.css",
+    "main.js": "/static/js/main.f3bbb33d.js",
+    "static/js/703.674d2745.chunk.js": "/static/js/703.674d2745.chunk.js",
+    "static/js/513.9d562879.chunk.js": "/static/js/513.9d562879.chunk.js",
+    "static/media/bg.png": "/static/media/bg.dc2195a76bad5a3b229b.png",
+    "static/media/docavtar.webp": "/static/media/docavtar.8c270ebc3491aaed57b4.webp",
+    "index.html": "/index.html",
+    "main.f842d5e8.css.map": "/static/css/main.f842d5e8.css.map",
+    "main.f3bbb33d.js.map": "/static/js/main.f3bbb33d.js.map",
+    "703.674d2745.chunk.js.map": "/static/js/703.674d2745.chunk.js.map",
+    "513.9d562879.chunk.js.map": "/static/js/513.9d562879.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.56aabaed.css",
-    "static/js/main.4299032c.js"
+    "static/css/main.f842d5e8.css",
+    "static/js/main.f3bbb33d.js"
   ]
 }
